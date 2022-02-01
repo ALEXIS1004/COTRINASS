@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE REGISTRO</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <h1>REGISTRO</h1>
+    <form action="RAS_UNMSM" target="_blank" method="GET">
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <label for="Nombre"> Nombres:</label><br/>
+            <input type="text" id="Nombre" name="nombre" placeholder="Ingresa tu nombre"
+            required="true"/><br/>
+
+            <label for="Apellido"> Apellidos:</label><br/>
+            <input type="text" id="Apellido" name="apellido" placeholder="Ingresa tus apellidos"
+            required="true"/><br/><br/>
+
+            <label for="Password"> Password:</label><br/>
+            <input type="password" id="Password" name="Password" placeholder="Ingresa tu contraseña"
+            required="true"/><br/><br/>
+
+            <label for="email">Email:</label><br/>
+            <input type="email" id="email" name="email"/><br/><br/>
+
+            <label for="edad">Edad:</label><br/>
+            <input type="number" id="edad" name="edad"/><br/><br/>
+
+            <label>Genero:</label><br/>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label><br/>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label><br/><br/>
+            
+            <label>Equipo a pertenecer:</label><br/>
+            <input type="checkbox" id="logistica" name="equipo" value="logistica">
+            <label for="logistica">Logistica</label><br/>
+            <input type="checkbox" id="marketing" name="equipo" value="marketing">
+            <label for="marketing">Marketing</label><br/>
+            <input type="checkbox" id="proyectos" name="equipo" value="proyectos">
+            <label for="proyectos">Proyectos</label><br/>
+            <input type="checkbox" id="relaciones" name="equipo" value="relaciones">
+            <label for="relaciones">Relaciones públicas</label><br/><br/>
+            
+            <!--      BOTONES                      -->
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Restablecer"/>
+
+        </fieldset>
+    </form>
+    <p><a href="/index.html"> REGRESAR</a></p><br/>
+</body>
+</html>
